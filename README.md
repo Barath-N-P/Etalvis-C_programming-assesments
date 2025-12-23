@@ -1,1 +1,0 @@
-# Etalvis-C_programming-assesments
