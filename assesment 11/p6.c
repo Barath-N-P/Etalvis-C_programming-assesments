@@ -1,5 +1,5 @@
 #include<stdio.h>
-void strcpy(int *src,int *dst);
+void strcpy(char *src,char *dst);
 int main()
 {
     char a[]="Hello embedded";
@@ -11,7 +11,7 @@ int main()
     return 0;
 }
 
-void strcpy(int *src,int *dst)
+void strcpy(char *src,char *dst)
 {
     while((*src)!='\0')
     {
